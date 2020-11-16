@@ -68,7 +68,11 @@ class Node:
         self.color = TURQUOISE
     
     def draw(self, win):
-        pygame.draw.rect(win, self.color, (self.x, self.y, self.width, self.width))
+        if self.color == GREEN or self.color == TURQUOISE:
+            pygame.draw.rect(win, self.color, (self.x, self.y, self.width, self.width), border_radius=self.width//2)
+        else:
+            pygame.draw.rect(win, self.color, (self.x, self.y, self.width, self.width))
+
 
     def update_neighbors(self, grid):
         self.neighbors = []
