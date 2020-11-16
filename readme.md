@@ -24,3 +24,7 @@ There is still a lot of work to be done, including but not limited to
 - making a UI based solution to change the width of the square grid
 - letting the user put custom colors in there
 - making the whole thing look cooler
+
+## Requirements
+
+You need to have pygame installed, or this will **not work**
