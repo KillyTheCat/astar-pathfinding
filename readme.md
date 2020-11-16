@@ -1,4 +1,4 @@
-#A STAR PATHFINDING VISUALISATION USING PYTHON
+# A STAR PATHFINDING VISUALISATION USING PYTHON
 
 This is a simple, and pretty barebones A* pathfinding algorithm visualiser made in Python 3.9, using the pygame engine. 
 
@@ -6,7 +6,7 @@ I made this with reference from TechWithTim's video on the same topic, and it ha
 
 Feel free to use the code as you like.
 
-##How to use
+## How to use
 
 Left click anywhere on the grid to paint it. 
     - the first click would represent the starting position
@@ -17,7 +17,7 @@ Left click anywhere on the grid to paint it.
 
 After you are satisfied with what you have made, press space to start the visualization.
 
-##TODO
+## TODO
 
 There is still a lot of work to be done, including but not limited to
     - making a reset button
